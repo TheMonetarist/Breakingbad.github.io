@@ -1,4 +1,46 @@
-#title h1 {
+body {
+    background-image: url("/themonetarist.github.io/img/background.jpg");
+}
+
+@font-face {
+    font-family: BreakingBadFont;
+    src: url(/themonetarist.github.io/fonts/Heart\ Breaking\ Bad.otf);
+}
+
+.plot h1 {
     text-align: center;
     margin-top: 25px;
+}
+
+.plot img {
+    width: 35%;
+    display: block;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.plot p {
+    margin-left: 250px;
+    margin-right: 250px;
+    text-align: center;
+}
+
+#season_list {
+    border-radius: 15%;
+    border: black;
+}
+
+#season_1_block, #season_2_block, #season_3_block, #season_4_block, #season_5_block {
+    text-align: center;
+    margin-top: 65px;
+}
+
+.seasons h2 {
+    color: forestgreen;
+    font-family: BreakingBadFont;
+}
+
+.seasons p {
+    font-family: BreakingBadFont;
 }
