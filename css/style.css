@@ -26,9 +26,16 @@ body {
     text-align: center;
 }
 
-#season_list {
-    border-radius: 15%;
-    border: black;
+#main_story_block ul { 
+    text-align: center;
+}
+
+#main_story_block li {
+    display: inline-block;
+}
+
+#main_story_block p {
+    font-size: 15px;
 }
 
 #season_1_block, #season_2_block, #season_3_block, #season_4_block, #season_5_block {
