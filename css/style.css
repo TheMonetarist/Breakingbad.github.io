@@ -1,15 +1,52 @@
+/*Specifying background image with path*/
 body {
-    background-image: url("/themonetarist.github.io/img/background.jpg");
+    background-image: url("../img/green_background.jpg");
+    background-size: cover;
 }
 
+/*Specifying background font with path*/
 @font-face {
     font-family: BreakingBadFont;
     src: url(/themonetarist.github.io/fonts/Heart\ Breaking\ Bad.otf);
+    unicode-range: U+0097-0122F;
 }
 
-.plot h1 {
+/*Applying font to all h1 heading and paragraphs + specifying font, font weight, size and position */
+h1, p {
+    color: white;
+    font-family: BreakingBadFont;
+}
+
+h1 {
+    color: white; 
+    font-family: BreakingBadFont; 
+    font-weight: bold;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+/*Width, position, font-weight for quotes and images*/
+.quote_block img {
+    width: 25%;
+    margin-right: 500px;
+    margin-top: 50px;
+    float: right;
+}
+
+.quote_block p {
+    width: 25%;
+    float: left;
+    margin-left: 375px;
+    margin-top: 125px;
+    font-weight: bold;
+}
+
+/*Size, position for plot block*/
+.plot h2 {
     text-align: center;
     margin-top: 25px;
+    color: forestgreen;
+    
 }
 
 .plot img {
@@ -26,6 +63,8 @@ body {
     text-align: center;
 }
 
+
+/*Size, position for main story block with links to the season descriptions*/
 #main_story_block ul { 
     text-align: center;
 }
@@ -38,14 +77,16 @@ body {
     font-size: 15px;
 }
 
+/*Applying one same margin to all season descriptions*/
 #season_1_block, #season_2_block, #season_3_block, #season_4_block, #season_5_block {
-    text-align: center;
     margin-top: 65px;
 }
 
-.seasons h2 {
+/*Color, font family and positition for headings and paragraphs in season descriptions*/
+.seasons h3 {
     color: forestgreen;
     font-family: BreakingBadFont;
+    text-align: center;
 }
 
 .seasons p {

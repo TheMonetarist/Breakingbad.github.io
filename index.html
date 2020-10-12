@@ -6,6 +6,8 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
+
+    <!--Title seen on the tab in the browser-->
     <title>Breaking Bad</title>
 </head>
 <body>
@@ -13,39 +15,44 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-success">
         <a class="navbar-brand" href="index.html">
             <img src="img/brba.jpg" width="30" height="30" alt="BrBa">
+            <!--Logo in the navbar-->
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-    
+
+        <!--Every text-part of the navbar with links-->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
+              <!--"active" in the class marks on which page you're on.-->
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="plot.html">Plot</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Trailers</a>
+              <a class="nav-link" href="trailers.html">Trailers</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="https://www.imdb.com/title/tt0903747/" add target="_blank">Reviews</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contacts.html">Contacts</a>
-            </li>
+          </ul>
         </div>
       </nav>
 
-      <div class="content">
-          <div id="title">
-            <h1>Breaking Bad</h1>
-          </div>
-          
-          <div id="main">
-              <!--<img src="img/background.jpg" alt="Background">--> 
-              <p></p>
+      <!--Block with the content on the main index page-->
+      <div class="d-block mx-auto">
+        <!--Title on the top of the page-->        
+          <h1 class="text-center">Breaking Bad</h1>
+          <div class="quote_block">
+            <!--Picture under the title-->
+            <img src="img/quote.jpg" alt="quote.jpg">
+            <!--Quote about the show-->
+            <p>〞Everybody has their own opinion of how many stars a show deserves, 
+            whether more stars or fewer it's seldom so many people agree. 
+            "Breaking Bad" is possibly the best TV drama ever made - there isn't a wrong step, 
+            bad episode or miscast character throughout the whole series run.〟</p>
           </div>
       </div>
         
