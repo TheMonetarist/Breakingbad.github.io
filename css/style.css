@@ -28,7 +28,7 @@ h1 {
 /*Width, position, font-weight for quotes and images*/
 .quote_block img {
     width: 25%;
-    margin-right: 500px;
+    margin-right: 350px;
     margin-top: 50px;
     float: right;
 }
@@ -36,9 +36,10 @@ h1 {
 .quote_block p {
     width: 25%;
     float: left;
-    margin-left: 375px;
-    margin-top: 125px;
+    margin-left: 265px;
+    margin-top: 50px;
     font-weight: bold;
+    font-size: 15px;
 }
 
 /*Size, position for plot block*/
