@@ -93,3 +93,7 @@ h1 {
 .seasons p {
     font-family: BreakingBadFont;
 }
+
+iframe { 
+    border: none; 
+}
